@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./css/style.css"/>
+    <style>
+        .login-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            margin-top: 50px;
+        }
+        .input{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .input input{
+            padding: 8px 50px 8px 15px;
+            margin: 4px;      
+            border-radius: 1100px;      
+            background-color: rgb(238, 237, 237);
+            border: none;
+        }
+        .btn-login{
+            margin: 4px;
+            background: rgb(187, 231, 248);
+            color: white;
+            padding: 4px 38px;
+            border-radius: 1100px;
+            font-size: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 네이게이션 바 -->
+    <nav>
+        <div class="inner-box">
+            <div class="logo">
+                <a href="index.html">My Home</a>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="login.html" class="selected">Login</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- 로그인  -->
+    <div class="login-container">
+        <h1>Login</h1>
+        <div class="input">
+            <input placeholder="Username">
+            <input placeholder="Password" type="password">
+        </div>
+        <a href="#" class="btn-login">Login</a>
+        <div></div>
+    </div>
+</body>
+</html>
